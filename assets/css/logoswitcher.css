@@ -1,0 +1,10 @@
+.ls-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ls-item {
+	opacity: 1;
+    transition: transform 0.3s ease-in-out, opacity 0.3s;
+}

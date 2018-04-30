@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Logo switcher</title>
+	<link rel="stylesheet" href="assets/css/logoswitcher.css">
+</head>
+<body style="background-color: #efefef;">
+	<h1 style="font-size: 2.7em; text-align: center; font-family: Calibri, 'Helvetica Neue', Arial, sans serif; margin-top: 50px;">Logo Switcher</h1>
+	<div style="max-width: 700px; margin: auto; background-color: #fff; padding: 40px; margin-top: 50px;">
+		<div id="myLogoSwitcher"></div>
+	</div>
+
+
+	<script src="assets/js/logoswitcher.js"></script>
+	<script>
+		const switcher1 = new Logoswitcher('myLogoSwitcher', {
+			visible: 5, // Number of visible images at once
+			urls: [ // Array containing objects with links and imgs
+				{
+					link: 'http://example.com',
+					img: 'https://static1.squarespace.com/static/images/57fea8f720099e55c3901865?format=100w'
+				},
+				{
+					link: 'http://example.com',
+					img: 'https://static1.squarespace.com/static/images/57feaa162994cab82c6cc4b5?format=100w'
+				},
+				{
+					link: 'http://example.com',
+					img: 'https://static1.squarespace.com/static/images/57fea921e3df287b2fb324bc?format=100w'
+				},
+				{
+					link: 'http://example.com',
+					img: 'https://static1.squarespace.com/static/images/57fea839ebbd1ae2b1172c56?format=100w'
+				},
+				{
+					link: 'http://example.com',
+					img: 'https://static1.squarespace.com/static/images/59d279d48dd041eef1314c60?format=100w'
+				},
+				{
+					link: 'http://example.com',
+					img: 'https://static1.squarespace.com/static/images/57fea8a759cc68a6cf9d92cc?format=100w'
+				},
+				{
+					link: 'http://example.com',
+					img: 'https://static1.squarespace.com/static/images/57fe9b186a49630880585cb3?format=100w'
+				},
+				{
+					link: 'http://example.com',
+					img: 'https://static1.squarespace.com/static/images/59b0713ad55b41f0f336e42e?format=100w'
+				},
+			]
+		})
+	</script>
+</body>
+</html>
